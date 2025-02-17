@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+     char vehicle;
+    int distance;
+    printf("enter the type of vehicle");
+    scanf("%d",&vehicle);
+    printf("enter the distance travelled");
+    scanf("%d",&distance);
+    
+    //calculate
+    float base_charge;
+    if(car){
+        base_charge=(distance*5);
+    }
+     if(truck){
+        base_charge=(distance*10);
+    }
+     if(bus){
+        base_charge=(distance*8);
+    }
+return 0;
+}
